@@ -11,8 +11,12 @@ cd GithubStarsManager
 
 ## 2. Start Backend
 
+Only the backend dependencies are required for the current Hermes workflow.
+
 ```bash
-npm run dev:server
+cd server
+npm install
+npm run dev
 ```
 
 Optional if backend auth is enabled:
@@ -57,3 +61,10 @@ node skills/github-stars-memory/scripts/digest.mjs --days 14 --limit 10
 - `find` returns a repo you actually wanted
 - `annotate` writes your private note/status
 - `digest` shows recent releases after refresh
+
+## What You Do Not Need
+
+- you do not need to install the root frontend dependencies
+- you do not need to run the React app
+- you do not need to build Electron
+- the skill scripts themselves only use Node built-ins

@@ -12,6 +12,12 @@ The preferred setup is:
 
 This is better than installing only the skill directory because the skill depends on the local GithubStarsManager backend for persistence and GitHub proxying.
 
+What you do not need for this path:
+
+- root frontend dependencies
+- the React UI
+- Electron packaging
+
 ## 1. Clone Your Fork
 
 ```bash
@@ -21,10 +27,12 @@ cd GithubStarsManager
 
 ## 2. Start The Backend
 
-From the repo root:
+Only the backend dependencies are required for the current Hermes workflow.
 
 ```bash
-npm run dev:server
+cd server
+npm install
+npm run dev
 ```
 
 The backend defaults to `http://127.0.0.1:3000`.
