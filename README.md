@@ -207,6 +207,21 @@ npm run dev
 4. Click "Test Connection" — green indicator means connected
 5. Use "Sync to Backend" / "Sync from Backend" to transfer data
 
+## Hermes Workflow
+
+This repository now also includes a Hermes-first workflow for fork-based secondary development.
+
+- Skill directory: [skills/github-stars-memory](skills/github-stars-memory)
+- Product roadmap: [docs/hermes-first-roadmap.md](docs/hermes-first-roadmap.md)
+- Second-machine setup: [docs/hermes-second-machine-setup.md](docs/hermes-second-machine-setup.md)
+
+Recommended usage:
+
+1. Clone your fork on the machine that has Hermes installed
+2. Start the existing backend with `npm run dev:server`
+3. Add the repo's `skills/` directory to Hermes `external_dirs`
+4. Use the `github-stars-memory` skill for `sync`, `find`, `annotate`, `refresh-releases`, and `digest`
+
 ## 🤖 AI Service Configuration
 
 The app supports multiple AI providers. Configure yours in the Settings panel:

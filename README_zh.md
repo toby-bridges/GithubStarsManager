@@ -265,6 +265,21 @@ npm run dev
 4. 点击「测试连接」，绿色指示灯表示连接成功
 5. 使用「同步到后端」/「从后端同步」来传输数据
 
+## Hermes 工作流
+
+这个仓库现在也包含了一条面向 fork 二次开发的 Hermes-first 工作流。
+
+- Skill 目录: [skills/github-stars-memory](skills/github-stars-memory)
+- 产品路线图: [docs/hermes-first-roadmap.md](docs/hermes-first-roadmap.md)
+- 另一台电脑安装说明: [docs/hermes-second-machine-setup.md](docs/hermes-second-machine-setup.md)
+
+推荐使用方式：
+
+1. 在装有 Hermes 的那台机器上 clone 你的 fork
+2. 使用 `npm run dev:server` 启动现有 backend
+3. 把仓库里的 `skills/` 目录加入 Hermes 的 `external_dirs`
+4. 通过 `github-stars-memory` skill 执行 `sync`、`find`、`annotate`、`refresh-releases` 和 `digest`
+
 ## 目标用户
 
 - 拥有数百甚至数千星标的开发者
