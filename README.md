@@ -213,6 +213,7 @@ This repository now also includes a Hermes-first workflow for fork-based seconda
 
 - Skill directory: [skills/github-stars-memory](skills/github-stars-memory)
 - Product roadmap: [docs/hermes-first-roadmap.md](docs/hermes-first-roadmap.md)
+- One-page checklist: [docs/hermes-quickstart-checklist.md](docs/hermes-quickstart-checklist.md)
 - Second-machine setup: [docs/hermes-second-machine-setup.md](docs/hermes-second-machine-setup.md)
 
 Recommended usage:

@@ -271,6 +271,7 @@ npm run dev
 
 - Skill 目录: [skills/github-stars-memory](skills/github-stars-memory)
 - 产品路线图: [docs/hermes-first-roadmap.md](docs/hermes-first-roadmap.md)
+- 一页操作单: [docs/hermes-quickstart-checklist.md](docs/hermes-quickstart-checklist.md)
 - 另一台电脑安装说明: [docs/hermes-second-machine-setup.md](docs/hermes-second-machine-setup.md)
 
 推荐使用方式：

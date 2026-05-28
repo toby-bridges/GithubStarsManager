@@ -2,6 +2,8 @@
 
 This repository is designed to be consumed from a different machine that already has Hermes installed.
 
+For the shortest version, see [hermes-quickstart-checklist.md](./hermes-quickstart-checklist.md).
+
 The preferred setup is:
 
 1. Clone the whole repository
